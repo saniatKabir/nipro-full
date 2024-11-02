@@ -1,0 +1,275 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*	header srart*/
+	.logo {
+	    margin: 27px 0 !important;
+	    font-family: var(--lato);
+	    font-size: 30px;
+	    font-weight: 500;
+		}
+	.dd_menu[data-bs-popper]{
+	    top: -23%;
+	    left: -3px !important;
+		}
+/*	header end*/
+/*slider start*/
+	.s_row {
+	    text-align: center;
+	}
+	.s_item h1 {
+        margin: 64px 0 31px !important;
+        font-size: 40px;
+    }
+	
+	.s_item p {
+	    font-size: 14px;
+	    padding: 0;
+	}
+	.s_item a {
+	    margin: 39px 0 59px;
+	}
+/*slider end*/
+/*feature start*/
+	.mrkr_cmn {
+   		display: none;
+   }
+   .title_cmn h1{
+   	margin-top: 30px;
+   }
+   .f_text h1 {
+    padding: 45px 0 0;
+	}
+	
+    .f_text p {
+        margin: 30px 0 50px;
+        text-align: justify;
+        padding: 0 8px;
+    }
+    .sf_item {
+    	margin: 0 13px 37px;
+    }
+    .sf_title {
+    	padding: 13px 0 20px;
+	}
+    .sf_text {
+    padding: 20px 0 20px;
+	}
+	.sf_icon i {
+        font-size: 50px;
+    }
+
+/*feature end*/
+/*about start*/
+	.pad_cmn {
+	    padding-bottom: 20px;
+	}
+	.abt_img {
+	    margin: 0 91px 15px;
+	}
+	.abt_title{
+	    text-align: center;
+	    margin-bottom: 40px;
+		}
+	.abt_text {
+	        text-align: center;
+	        padding: 0px 10px;;
+	    	}
+	.abt_img{
+	    display: none;
+	    margin: 0 91px 0;
+		}
+	.abt_text p{
+		font-size: 14px;
+	}
+	.abt_text p:nth-child(3) {
+	    margin: 21px 0 !important;
+	}
+	.abt_link {
+	    font-size: 14px;
+	}
+
+/*about end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*	header srart*/
+	/*	header srart*/
+	.logo {
+	    margin: 27px 0 !important;
+	    font-family: var(--lato);
+	    font-size: 30px;
+	    font-weight: 500;
+		}
+	.dd_menu[data-bs-popper] {
+	    top: -23%;
+	    left: -3px !important;
+		}
+/*	header end*/
+/*slider start*/
+	.s_row {
+	    text-align: center;
+	}
+	.s_item h1 {
+	    margin: 64px 0 31px !important;
+        font-size: 45px;
+    }
+	
+	.s_item p {
+	    padding: 0 28px;
+	}
+	.s_item a {
+	    margin: 39px 0 59px;
+	}
+	
+/*slider end*/
+/*feature start*/
+	.title_cmn{
+		margin-top: 40px;
+	}
+	.mrkr_cmn {
+	    height: 25px;
+	    
+	}
+	
+	.mrkr_cmn {
+   		display: none;
+   }
+   .f_text h1 {
+    padding: 25px 0 0;
+	}
+	.f_text p {
+    	margin: 30px 0 30px;
+	}
+	.sf_item {
+    	padding: 0 1px 1px;
+    }
+    .sf_title {
+    	padding: 13px 0 20px;
+	}
+    .sf_text {
+    padding: 20px 0 20px;
+	}
+	.sf_icon i {
+        font-size: 50px;
+    }
+/*feature end*/
+/*about start*/
+.abt_img {
+    margin: 0 91px 15px;
+}
+.abt_title{
+    text-align: center;
+    margin-bottom: 40px;
+	}
+.abt_text {
+        text-align: center;
+        padding: 0px 0;
+    	}
+.abt_img{
+    margin: 0 91px 0;
+	}
+.abt_text p{
+	font-size: 15px;
+}
+/*about end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	header srart*/
+	/*	header srart*/
+	.logo {
+	    margin: 27px 0 !important;
+	    font-family: var(--lato);
+	    font-size: 30px;
+	    font-weight: 500;
+	}
+	.dd_menu[data-bs-popper] {
+	    top: -23%;
+	    left: -3px !important;
+	}
+/*	header end*/
+/*slider start*/
+	.s_item h1 {
+	    margin: 93px 0 39px !important;
+	    font-family: var(--lato);
+	    font-size: 47px;
+	    font-weight: 700;
+	}
+	.s_item p {
+	    padding-right: 171px;
+	}
+	.s_item a {
+	    margin: 58px 0 105px;
+	}
+/*slider end*/
+/*feature start*/
+	.pad_cmn {
+    	padding-bottom: 80px;
+	}
+	.title_cmn{
+		margin-top: 40px;
+	}
+	.mrkr_cmn {
+	    height: 25px;
+	}
+	
+	.mrkr_cmn {
+   		display: none;
+   }
+   .f_text h1 {
+    padding: 25px 0 0;
+	}
+	.f_text p {
+    }
+/*feature end*/
+/*about start*/
+.abt_img {
+    margin: 0 91px 15px;
+}
+.abt_title{
+    text-align: center;
+    margin-bottom: 40px;
+	}
+.abt_text{
+	text-align: center;
+    padding: 0px 60px;
+	}
+.abt_img{
+    margin: 0 91px 0;
+	}
+/*about end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*	banner start*/
+	.s_item h1 {
+	    font-size: 54px;
+	    }
+	.s_item p {
+   		padding-right: 5px;
+		}
+/*	banner end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*slider start*/
+	.s_item h1 {
+	    font-size: 56px;
+	}
+	.s_item p {
+    	padding-right: 11px;
+	}
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*	wcn start*/
+	.spl {
+	    margin-right: 60px;
+	    border-bottom: 2px solid var(--ash);
+	}
+}
